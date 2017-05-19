@@ -1,4 +1,4 @@
-// Classe para conexão com banco de dados PostgreSQL
+// Classe para conexão com banco de dados PostgreSQL.
 
 package Project;
 
