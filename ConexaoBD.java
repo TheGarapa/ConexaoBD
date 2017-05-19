@@ -1,3 +1,5 @@
+// Classe para conexão com banco de dados PostgreSQL
+
 package Project;
 
 import java.sql.*;
@@ -18,15 +20,15 @@ public class ConexaoBD {
 	public void Conexao(){
 	  
 	    try {
-//		System.setProperty("jdbc.Drivers", driver);
+
 		con=DriverManager.getConnection(url, usuario, senha);
 		JOptionPane.showMessageDialog(null, "Conexão bem sucedida!");
                 
-} // chaves da linha try
+}
 
 		catch (SQLException ex) {
 		JOptionPane.showMessageDialog(null, "Não foi possível se conectar ao banco de dados: "+ex);
-} // chaves da linha catch
+}
   
     }    
  
