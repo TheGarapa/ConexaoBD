@@ -12,9 +12,9 @@ public class ConexaoBD {
 	public Statement stm;
 	public ResultSet rs;
 	private String driver = "org.postgresql.Driver";
-	private String url = "jdbc:postgresql://localhost:5432/Garapa"; 
+	private String url = "jdbc:postgresql://localhost:5432/Harley"; 
 	private String usuario = "postgres";
-	private String senha = "garapa";
+	private String senha = "harley";
 	public Connection con;
 
 	public void Conexao(){
